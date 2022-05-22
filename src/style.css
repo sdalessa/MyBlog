@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body {
+    font-family: monospace;
+}
+
+.container{
+    width: 990px;
+    margin: 10px, auto;
+}
+
+.header{
+    background:  #0082e6;
+    height: 100px;
+    width: 100%;
+}
+
+.logo a{
+    background: #0082e6;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* menu on top */
+  .ul1{
+    float:right;
+    margin-right: 350px;
+}
+  .ul1 li{
+      display: inline-block;
+      margin: 0 5px;    
+      letter-spacing: 2px;
+  }
+
+  .ul1 li a{
+    color: white;    
+}
+  /* menu on top (is written above) */
+
+.main{
+    background-color:aqua;
+    overflow: hidden;   
+}
+
+.sidebar{
+    background-color: white; 
+    width: 180px;
+    min-height: 300px;
+    float:left;
+}  
+/* .sidebar li {
+    margin-top: 15px;
+}*/
+.side {
+    display:list-item;
+    padding: 12px;
+    letter-spacing: 2px;
+    font-size: large;  
+}
+
+.side a{
+    color: #0082e6;
+}
+
+.side a:hover{
+    background: lightskyblue;
+    padding: 2px;  
+    border: red solid 1px;
+}
+
+.main-content{
+    background-color: grey;
+    margin-top: -15px;
+    width: 810px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    /*margin-left: 180px;
+    margin-top: -20px;
+    min-height: 300px;*/
+}
+
+.box1{background: lightskyblue ;}
+.box2{background: lightsalmon;}
+.box3{background: paleturquoise;}
+.box4{background: lightpink;}
+.box5{background: palegreen;}
+.box6{background: palegoldenrod;}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    height: 100px;
+
+}
+
+/*main-content {
+    display: flex;
+}
+
+main-content > * {
+    flex-basis: 100%;
+}*/
+
+
+
+.footer{
+    background-color: #0082e6;
+    height: 100px;  
+    
+}   
+
+.footer a {
+    color: white;
+    float: right;
+    margin-right: 230px;
+    margin-top: 40px;
+    font-size: large;
+}
+.footer a:hover{
+    color: white;
+    background: lightskyblue;
+    padding: 2px;  
+    border: red solid 1px;
+}
